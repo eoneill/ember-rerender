@@ -69,7 +69,7 @@ import EditTodoView from 'appkit/views/edit_todo';
       // get a uuid for the view...
       this.elementId = this.elementId || guidForView(this);
       // and business as usual
-      this._super();
+      this._super(arguments);
     }
   });
 }());
