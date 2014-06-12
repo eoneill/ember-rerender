@@ -2,6 +2,8 @@
 import Resolver from 'ember/resolver';
 import loadInitializers from 'ember/load-initializers';
 
+import EditTodoView from 'appkit/views/edit_todo';
+
 window.preRenderSyncPhase = true;
 (function(RenderBufferProto) {
   var _generateElement = RenderBufferProto.generateElement;
