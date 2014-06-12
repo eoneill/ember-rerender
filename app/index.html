@@ -104,6 +104,7 @@
   <script src="/testem.js"></script>
   <!-- @endif -->
 
+<!-- @if prerender=true -->
 <div id="emberv0" class="ember-view"><script type="text/x-placeholder" id="metamorph-2-start"></script><script type="text/x-placeholder" id="metamorph-0-start"></script><section id="todoapp">
   <header id="header">
     <h1>todos</h1>
@@ -169,10 +170,13 @@
 <footer id="info">
   <p>Double-click to edit a todo</p>
 </footer><script type="text/x-placeholder" id="metamorph-0-end"></script><script type="text/x-placeholder" id="metamorph-2-end"></script></div>
+<script>
+window.preRenderSyncPhase = true;
+</script>
+<!-- @endif -->
 
   <!-- @if tests=false -->
   <script>
-    window.preRenderSyncPhase = true;
     window.App = require('appkit/app')['default'].create(ENV.APP);
   </script>
   <!-- @endif -->
