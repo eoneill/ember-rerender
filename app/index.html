@@ -8,6 +8,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <!-- build:css(tmp/result) /assets/app.min.css -->
+  <link rel="stylesheet" href="/assets/css/normalize.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
   <link rel="stylesheet" href="/assets/app.css">
   <!-- endbuild -->
 
@@ -36,7 +38,7 @@
 
     <!-- @if dist=false -->
     <script src="/vendor/handlebars/handlebars.js"></script>
-    <script src="/vendor/ember/ember.js"></script>
+    <script src="/vendor/ember/ember.prod.js"></script>
     <!-- @endif --><!-- @if dist=true -->
     <script src="/vendor/handlebars/handlebars.runtime.js"></script>
     <script src="/vendor/ember/ember.prod.js"></script>
@@ -108,6 +110,72 @@
   <script src="/tests/test-loader.js"></script>
   <script src="/testem.js"></script>
   <!-- @endif -->
+
+<div id="ember329" class="ember-view"><script type="text/x-placeholder" id="metamorph-2-start"></script><script type="text/x-placeholder" id="metamorph-0-start"></script><section id="todoapp">
+  <header id="header">
+    <h1>todos</h1>
+    <input type="text" placeholder="What needs to be done?" class="ember-view ember-text-field" id="new-todo">
+  </header>
+
+  <section id="main">
+    <script type="text/x-placeholder" id="metamorph-3-start"></script><script type="text/x-placeholder" id="metamorph-1-start"></script><ul id="todo-list">
+  <script type="text/x-placeholder" id="metamorph-7-start"></script><script type="text/x-placeholder" id="metamorph-4-start"></script>
+    <li data-bindattr-1="1" class="completed">
+      <script type="text/x-placeholder" id="metamorph-8-start"></script>
+        <input type="checkbox" checked="checked" class="ember-view ember-checkbox toggle" id="ember416">
+        <label data-ember-action="2"><script type="text/x-placeholder" id="metamorph-9-start"></script>Learn Ember.js<script type="text/x-placeholder" id="metamorph-9-end"></script></label>
+        <button data-ember-action="3" class="destroy"></button>
+      <script type="text/x-placeholder" id="metamorph-8-end"></script>
+    </li>
+  <script type="text/x-placeholder" id="metamorph-4-end"></script><script type="text/x-placeholder" id="metamorph-5-start"></script>
+    <li data-bindattr-4="4" class="">
+      <script type="text/x-placeholder" id="metamorph-10-start"></script>
+        <input type="checkbox" class="ember-view ember-checkbox toggle" id="ember418">
+        <label data-ember-action="5"><script type="text/x-placeholder" id="metamorph-11-start"></script>...<script type="text/x-placeholder" id="metamorph-11-end"></script></label>
+        <button data-ember-action="6" class="destroy"></button>
+      <script type="text/x-placeholder" id="metamorph-10-end"></script>
+    </li>
+  <script type="text/x-placeholder" id="metamorph-5-end"></script><script type="text/x-placeholder" id="metamorph-6-start"></script>
+    <li data-bindattr-7="7" class="">
+      <script type="text/x-placeholder" id="metamorph-12-start"></script>
+        <input type="checkbox" class="ember-view ember-checkbox toggle" id="ember420">
+        <label data-ember-action="8"><script type="text/x-placeholder" id="metamorph-13-start"></script>Profit!<script type="text/x-placeholder" id="metamorph-13-end"></script></label>
+        <button data-ember-action="9" class="destroy"></button>
+      <script type="text/x-placeholder" id="metamorph-12-end"></script>
+    </li>
+  <script type="text/x-placeholder" id="metamorph-6-end"></script><script type="text/x-placeholder" id="metamorph-7-end"></script>
+</ul><script type="text/x-placeholder" id="metamorph-1-end"></script><script type="text/x-placeholder" id="metamorph-3-end"></script>
+    <input type="checkbox" class="ember-view ember-checkbox" id="toggle-all">
+  </section>
+
+  <footer id="footer">
+    <span id="todo-count">
+      <strong><script type="text/x-placeholder" id="metamorph-14-start"></script>2<script type="text/x-placeholder" id="metamorph-14-end"></script></strong> <script type="text/x-placeholder" id="metamorph-15-start"></script>items<script type="text/x-placeholder" id="metamorph-15-end"></script> left
+    </span>
+
+    <ul id="filters">
+      <li>
+        <a href="/" class="ember-view selected" id="ember428">All</a>
+      </li>
+      <li>
+        <a href="/active" class="ember-view" id="ember429">Active</a>
+      </li>
+      <li>
+        <a href="/completed" class="ember-view" id="ember438">Completed</a>
+      </li>
+    </ul>
+
+    <script type="text/x-placeholder" id="metamorph-16-start"></script>
+      <button data-ember-action="10" id="clear-completed">
+        Clear completed (<script type="text/x-placeholder" id="metamorph-17-start"></script>1<script type="text/x-placeholder" id="metamorph-17-end"></script>)
+      </button>
+    <script type="text/x-placeholder" id="metamorph-16-end"></script>
+  </footer>
+</section>
+
+<footer id="info">
+  <p>Double-click to edit a todo</p>
+</footer><script type="text/x-placeholder" id="metamorph-0-end"></script><script type="text/x-placeholder" id="metamorph-2-end"></script></div>
 
   <!-- @if tests=false -->
   <script>

@@ -213,7 +213,7 @@ module.exports = function(grunt) {
                      'jshint:app',
                      'jshint:tests',
                      'validate-imports:app',
-                     'validate-imports:tests',
+                     //'validate-imports:tests',
                      'coffee',
                      'emberscript',
                      'copy:javascriptToTmp',
