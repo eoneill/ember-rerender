@@ -1,3 +1,5 @@
+Disclaimer: This is just a proof of concept... you probably shouldn't use this for anything :)
+
 ```
 npm install
 grunt server
