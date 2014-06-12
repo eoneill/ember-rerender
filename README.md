@@ -18,4 +18,8 @@ grunt server  --prerender
 
 [http://localhost:8000](http://localhost:8000)
 
+## How it works...
+
+For now, check out the magic in [`app/app.js`](https://github.com/eoneill/ember-rerender/blob/master/app/app.js)
+
 This is built on top of [Ember App Kit](http://iamstef.net/ember-app-kit/) and [TodoMVC-EAK](https://github.com/neojp/TodoMVC-EAK)
