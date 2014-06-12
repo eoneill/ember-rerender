@@ -13,7 +13,7 @@ grunt server
 
 to simulate a pre-rendered DOM in the initial HTML response (Ember will re-bind when it loads on the client)...
 ```
-grunt server  --prerender
+grunt server --prerender
 ```
 
 [http://localhost:8000](http://localhost:8000)
